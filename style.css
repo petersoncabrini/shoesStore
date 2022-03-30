@@ -1,0 +1,230 @@
+html, body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: left;
+}
+header{
+    -webkit-box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4); 
+    box-shadow: 0px 5px 20px 5px rgba(122,122,122,0.4);
+}
+header .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120px;
+}
+header nav a{
+    color: #777777;
+    line-height: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+header h1{
+    margin: 0;
+}
+content .banner{
+    align-items: center;
+    background-color: #DCBB99;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+content .banner img{
+    margin-right: 50px;
+}
+content .banner .banner_infos{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+content .frase{
+    background-image: url("images/icon1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-weight: 700;
+    padding-top: 85px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+}
+content .frase.icon2{
+    background-image: url("images/icon2.png");
+}
+content .frase.icon3{
+    background-image: url("images/icon3.png");
+}
+content .destaque .destaque_container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+content .destaque h2{
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    text-transform: lowercase;
+}
+content .vitrine{
+    background-color: #C2185B;
+    color: #FFFFFF;
+    margin-top: 100px;
+    padding: 100px;
+    padding-top: 50px;
+}
+content .vitrine h2{
+    font-size: 44px;
+    font-weight: 800;
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+content .vitrine .vitrine_cards{
+    display: flex;
+    justify-content: space-between;
+}
+content .vitrine .vitrine_cards .card{
+    background: #FFFFFF;
+}
+content .vitrine .vitrine_cards .card a{
+    color: #000000;
+    text-decoration: none;
+}
+content .vitrine .vitrine_cards .card a img{
+    width: 100%;
+}
+content .vitrine .vitrine_cards .card a p{
+    padding: 10px;
+    text-transform: uppercase;
+}
+content .vitrine .vitrine_cards .card a p .preco{
+    display: block;
+}
+content .produto_destaque .destaque_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+content .produto_destaque .destaque_container .coluna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+content .produto_destaque .link_produto{
+    font-size: 39px;
+    font-weight: 600;
+    text-transform: uppercase;
+    max-width: 500px;
+}
+content .produto_destaque .link_produto a{
+    background-color: #C2185B;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+content .sides_container{
+    display: flex;
+    justify-content: space-between;
+}
+content .sides_container .left_side,
+content .sides_container .right_side{
+    flex: 1 1 40px;
+}
+content h2.page_title{
+    color: #575757;
+    font-size: 39px;
+    font-weight: 600;
+}
+content form label{
+    display: block;
+    margin-bottom: 5px;
+}
+content form input,
+content form select,
+content form textarea,
+content form button{
+    box-sizing: border-box;
+    border: 1px solid #9B9B9B;
+    font-size: 14px;
+    font-family: "Open Sans";
+    padding: 10px;
+    width: 90%;
+}
+content form .campo .select_group{
+    display: inline-flex;
+    flex-wrap: wrap;
+    
+}
+content form .campo .select_group label{
+    margin: 10px;
+}
+content form textarea{
+    resize: none;
+}
+content form .campo{
+    margin-bottom: 10px;
+}
+content form label input{
+    width: auto;
+}
+content form button{
+    background-color: #C2185B;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: lowercase;
+}
+footer{
+    background-color: #C2185B;
+    color: #FFFFFF;
+    margin-top: 100px;
+    padding: 60px 0;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+footer .logo{
+    max-width: 240px;
+    text-align: center;
+
+}
+footer .footer_links{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 0.3;
+}
+footer .footer_links .coluna{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer .footer_links .coluna nav{
+    display: flex;
+    flex-direction: column;
+}
+footer .footer_links nav a{
+    font-size: 16px;
+    font-weight: 400;
+}
+footer .footer_links h5{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+}
