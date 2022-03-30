@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>Shoes - Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="wrapper">
@@ -31,11 +34,70 @@
             <h2 class="page_title">Faça parte do nosso time</h2>
             <div class="sides_container">
                 <div class="left_side">
+                    <form action="#" method="post">
+                        <div class="campo">
+                            <label for="name">Nome</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="campo">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="campo">
+                            <label for="phone">Telefone</label>
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        <div class="campo">
+                            <label for="departments">Departamentos</label>
+                            <select name="departments" id="departments">
+                                <option value="">Administrativo</option>
+                                <option value="">Comercial</option>
+                                <option value="">Estoque</option>
+                                <option value="">Rh</option>
+                                <option value="">TI</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="">Disponibilidade:</label>
+                            <div class="select_group">
+                               
+                                <label for=""> <input type="checkbox" name="disponibility" id="disponibility"> Integral
+                                    8h </label>
+                                <label for=""> <input type="checkbox" name="disponibility" id="disponibility"> Meio
+                                    Periodo 4h </label>
+                                <label for=""> <input type="checkbox" name="disponibility" id="disponibility">
+                                    Freelancer 8h </label>
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <label for="">Qual a melhor forma para entrarmos em contato com voce?</label>
+                            <div class="select_group">
+                                <label for=""> <input type="radio" name="contato" id="">Email</label>
+                                <label for=""><input type="radio" name="contato" id="">Ligacao</label>
+                                <label for=""><input type="radio" name="contato" id="">WhatsApp</label>
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="campo">
+                            <label for="curriculum">Curriculo</label>
+                            <input type="file" name="curriculum" id="curriculum">
+                        </div>
+                        <button>Enviar</button>
+                    </form>
                 </div>
                 <div class="right_side">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique doloremque nam officia. In, id quam rem corrupti obcaecati, debitis molestias beatae perferendis tenetur officiis accusamus, deleniti et totam possimus. Aliquid.</p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, odit laborum omnis at eius aspernatur magnam nisi enim dolor nemo voluptas inventore! Cum reprehenderit nulla quod eaque dicta sed eum.</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis aliquid exercitationem quisquam accusantium officiis architecto sit facilis deleniti maiores unde, fugiat at omnis quas tempora sunt sed commodi incidunt magni.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique doloremque nam officia. In,
+                        id quam rem corrupti obcaecati, debitis molestias beatae perferendis tenetur officiis accusamus,
+                        deleniti et totam possimus. Aliquid.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, odit laborum omnis at eius
+                        aspernatur magnam nisi enim dolor nemo voluptas inventore! Cum reprehenderit nulla quod eaque
+                        dicta sed eum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis aliquid exercitationem quisquam
+                        accusantium officiis architecto sit facilis deleniti maiores unde, fugiat at omnis quas tempora
+                        sunt sed commodi incidunt magni.</p>
                 </div>
             </div>
         </div>
@@ -72,4 +134,5 @@
         </div>
     </footer>
 </body>
+
 </html>
