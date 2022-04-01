@@ -31,6 +31,16 @@ header nav a{
 header h1{
     margin: 0;
 }
+
+content .frete{
+    position: sticky;
+    background-color: yellow;
+    top: 0;
+}
+
+content .frete h1 {
+}
+
 content .banner{
     align-items: center;
     background-color: #DCBB99;
