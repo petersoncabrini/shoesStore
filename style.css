@@ -192,7 +192,14 @@ content form button{
     font-weight: bold;
     margin: 10px 0;
     text-transform: lowercase;
+    transition: all 3s;
 }
+
+content form button:hover {
+    background-color: white;
+    color: #C2185B;
+}
+
 footer{
     background-color: #C2185B;
     color: #FFFFFF;
